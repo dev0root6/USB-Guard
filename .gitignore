@@ -1,0 +1,28 @@
+# === Secrets / local config ===
+usb.env
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# === Logs ===
+*.log
+
+# === OS / editor noise ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*~
+.idea/
+.vscode/
+
+# === Systemd / runtime artifacts ===
+*.service.bak
+
